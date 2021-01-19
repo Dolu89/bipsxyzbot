@@ -4,9 +4,7 @@ import dotenv from "dotenv";
 import axios from "axios";
 import dayjs from "dayjs";
 
-if (process.env.NODE_ENV !== "production") {
-  dotenv.config();
-}
+dotenv.config();
 
 const checkInterval = 15 * 1000 * 60; // 15 minutes
 let LAST_UPDATE = Date.now();
