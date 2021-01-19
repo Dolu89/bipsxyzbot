@@ -1,0 +1,27 @@
+{
+  "name": "bips_bot",
+  "version": "1.0.0",
+  "description": "Telegram bot that track BIPs changes in bips.xyz",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "nodemon index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "bitcoin",
+    "bips"
+  ],
+  "author": "dolu",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "dayjs": "^1.10.3",
+    "pg": "^8.5.1",
+    "telegraf": "^4.0.1"
+  },
+  "devDependencies": {
+    "dotenv": "^8.2.0",
+    "nodemon": "^2.0.7"
+  }
+}
